@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sds.dsd
+  description: This is a dummy playbook proj
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: KB-perByte/testPlaydsdsd
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/KB-perByte/testPlaydsdsd
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: collection-project
+  system: system:default/audio-playback
+  lifecycle: production
+  owner: sd
